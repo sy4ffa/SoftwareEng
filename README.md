@@ -20,4 +20,6 @@
 - Admin will be able to edit, update and delete the products available on the site. 
 - Admin can see all the products ordered by the customers.
 - Admin can keep track on all the order status of the customer. 
+- Delivery Guy will be able to 'Log in as Admin'.
+- Delivery Guy can change the 'Order Status' when the products have been delivered. 
 
