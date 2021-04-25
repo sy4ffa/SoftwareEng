@@ -1,4 +1,4 @@
-# ⚙️ Funcitonal Requirements
+### ⚙️ Funcitonal Requirements
 
 Identifier | User Story | Size
 ------------ | ------------- | ------
@@ -23,7 +23,7 @@ REQ-18| As a Delivery Guy, I can Log In as Admin.| 1
 REQ-19| As a Delivery Guy, I can change the status of delivery once products have been delivered. | 2
 REQ-20| As a Delivery Guy, I can Log out from Admin after products have been delivered.| 1
 
-# 🔩 Non-Functional Requirements
+### 🔩 Non-Functional Requirements
 
 Identifier | User Story | Size
 ---------- | ---------- | -----
