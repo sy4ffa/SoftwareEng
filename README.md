@@ -25,3 +25,6 @@
 
 ## _🛠 Requirements_
 - [Requirement](Requirement.md)
+
+## _👩‍💻 Use Cases_ 
+- [General Use Cases](GeneralUC.md) 
