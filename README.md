@@ -27,7 +27,7 @@
 - [Requirement](Requirement.md)
 
 ## _👩‍💻 Use Cases_ 
-- [General Use Cases](GeneralUseCases.md) 
+- [General Use Cases](Use Cases/GeneralUseCases.md) 
 - [Detailed Use Cases](DetailedUseCases.md)
 - [Use Case Diagram](UseCasesDiagram.md)
 - [Traceability Matrix](TraceabilityMatrix.md)
