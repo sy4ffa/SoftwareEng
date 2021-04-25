@@ -28,3 +28,4 @@
 
 ## _👩‍💻 Use Cases_ 
 - [General Use Cases](GeneralUC.md) 
+- [Detailed Use Cases](DetailedUC.md)
