@@ -30,3 +30,4 @@
 - [General Use Cases](GeneralUC.md) 
 - [Detailed Use Cases](DetailedUC.md)
 - [Use Case Diagram](UCDiagram.md)
+- [Traceability Matrix](TraceabilityMatrix.md)
