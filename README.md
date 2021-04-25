@@ -7,7 +7,7 @@
 ## _🎞 Scenario_
 
 - User can search the grocery store through online or download the apps. 
-- User will be directed to ‘Home’.
+- User will be directed to 'Home'.
 - User can choose to ‘Log In/Sign Up’.
 - Once User has made an account, he/she can directly fill in all of their card and address details for future use or he/she can just directly shop for products.
 - Once User has chosen his/her account, User can directly choose the products wanted by going through each ‘Categories’ at the ‘Product’ section or can straight away using the ‘Search’ feature. 
