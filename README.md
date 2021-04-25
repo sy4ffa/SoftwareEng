@@ -1,10 +1,10 @@
 # SoftwareEng - Online Grocery Shopping Project
 
-# 📩 Problem Statement 
+## _📩 Problem Statement_ 
 
 - Nowadays it is hard for people to go outside and buy groceries. Some because of time restraint, some because of the fear for the pandemic and some just feels lazy to go outside. Some people feels it is hard for them to buy groceries especially for people who live alone because they have so many things to buy and feels out of hand to carry it all. There are also cases where grocery store is located far from one’s house which makes it even harder for them to go there regularly. Furthermore, we as students or someone who works sometimes faced insufficient time to go and shop for groceries as we are so busy with our daily lives. By that, it is easier to have an Online Grocery Shopping where we can just shop and pay groceries online. We also do not need to worry about picking up the groceries as it will be delivered directly to our houses. All of these things can be done in just one click away which makes it convenient for people. 
 
-# 🎞 Scenario
+## _🎞 Scenario_
 
 - User can search the grocery store through online or download the apps. 
 - User will be directed to ‘Home’.
@@ -20,3 +20,4 @@
 - Admin will be able to edit, update and delete the products available on the site. 
 - Admin can see all the products ordered by the customers.
 - Admin can keep track on all the order status of the customer. 
+
