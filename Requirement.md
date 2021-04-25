@@ -1,4 +1,4 @@
-### ⚙️ Funcitonal Requirements
+### ⚙️ Functional Requirements
 
 Identifier | User Story | Size
 ------------ | ------------- | ------
