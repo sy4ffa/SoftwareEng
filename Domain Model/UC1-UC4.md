@@ -1,4 +1,4 @@
-## UC-1(Register)
+## _🍓UC-1(Register)_
 
 Responsibility Description | Type | Concept Name
 -------------------------- | ---- | ------------
@@ -28,7 +28,7 @@ Investigation Requests | actor's information | actor's information needs to be i
 Filterer | filter form | filter all the information filled to match the website rules
 Notifier | notify actor | notify actor whether their signing up process a success or failure 
 
-## UC-2(Log In) 
+## _🍓UC-2(Log In)_ 
 
 Responsibility Description | Type | Concept Name
 -------------------------- | ---- | ------------
@@ -58,7 +58,7 @@ Investigation Requests | actor's information | actor's information needs to be i
 Filterer | filter form | filter all the information filled 
 Notifier | notify actor | notify actor whether their logging in process a success or failure 
 
-## UC-3(Fill Info)
+## _🍓UC-3(Fill Info)_
 
 Responsibility Description | Type | Concept Name
 -------------------------- | ---- | ------------
@@ -90,7 +90,7 @@ Investigation Requests | actor's information | actor's information needs to be i
 Filterer | filter form | filter all the information filled to ensure the card and house address exists
 Notifier | notify actor | notify actor whether their details is correct or not
 
-## UC-4(See Products) 
+## _🍓UC-4(See Products)_
 
 Responsibility Description | Type | Concept Name
 -------------------------- | ---- | ------------
