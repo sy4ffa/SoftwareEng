@@ -33,6 +33,5 @@
 - [Traceability Matrix](https://github.com/sy4ffa/SoftwareEng/blob/main/Use%20Cases/TraceabilityMatrix.md)
 
 ## _🔑 Domain Model_
-- Responsibilities, Associations, Attributes
 - Domain Model 
 - Traceabilitiy Matrix
