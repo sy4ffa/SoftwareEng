@@ -29,7 +29,7 @@
 ## _👩‍💻 Use Cases_ 
 - [General Use Cases](https://github.com/sy4ffa/SoftwareEng/blob/main/Use%20Cases/GeneralUseCases.md)
 - [Detailed Use Cases](https://github.com/sy4ffa/SoftwareEng/blob/main/Use%20Cases/DetailedUseCases.md)
-- [Use Case Diagram](https://github.com/sy4ffa/SoftwareEng/blob/main/Use%20Cases/DetailedUseCases.md)
+- [Use Case Diagram](https://github.com/sy4ffa/SoftwareEng/blob/main/Use%20Cases/UseCaseDiagram.md)
 - [Traceability Matrix](https://github.com/sy4ffa/SoftwareEng/blob/main/Use%20Cases/TraceabilityMatrix.md)
 
 ## _🔑 Domain Model_
