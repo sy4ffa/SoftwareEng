@@ -33,5 +33,5 @@
 - [Traceability Matrix](https://github.com/sy4ffa/SoftwareEng/blob/main/Use%20Cases/TraceabilityMatrix.md)
 
 ## _🔑 Domain Model_
-- Domain Model 
-- Traceabilitiy Matrix
+- [Domain Model ](https://github.com/sy4ffa/SoftwareEng/tree/main/Domain%20Model)
+- [Traceabilitiy Matrix]
