@@ -92,6 +92,23 @@ Notifier | notify actor | notify actor whether their details is correct or not
 
 ## UC-4(See Products) 
 
+Responsibility Description | Type | Concept Name
+-------------------------- | ---- | ------------
+Coordinate actions of concepts associated with this use case and delegate the work to other concepts. | D | Controller
+Render the retrieved records into an HTML document for sending to actor's Web browser for display | D | Page maker
+HTML documentation that shows the actor the current context, what actions can be done, and outcomes of the previous actions | K | Interface Page
+Information regarding website | K | Investigation requests
+
+Concept Pair | Association Description | Association Name
+------------ | ----------------------- | ----------------
+Controller <-> Page Maker | Controller passes request to Page Maker and receivers back pages prepared for displaying | conveys requests
+Page Maker <-> Database Connection | Database Connection passes the retrieved data to Page Maker to render them for display | provides data
+Page Maker <-> Interface Page | Page Maker prepares the Interface Page | prepares
+
+Concept | Attributes | Attribute Description 
+------- | ---------- | ---------------------
+Page Maker | website parameters | displays products and information allowed to actors
+Investigation Requests | website's information | shows websites information 
 
 
 
