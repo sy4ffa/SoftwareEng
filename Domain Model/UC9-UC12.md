@@ -24,3 +24,6 @@ Concept | Attributes | Attribute Description
 Checker | actor's status | check actor's status by making sure actor is in log in state 
 Investigation Requests | hold activites | making sure there are no hold activities that have not been accomplished
 Notifier | notify actor | notify actor whether logging out process is a success or not 
+
+## _🍓UC-10 (Edit Products)_
+
