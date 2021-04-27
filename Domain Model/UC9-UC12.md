@@ -58,4 +58,25 @@ Notifier | notify actor | notify actor whether their editting process has been s
 
 ## _🍓UC-11 (Manage order)_
 
+Responsibility Description | Type | Concept Name
+-------------------------- | ---- | ------------
+Coordinate actions of concepts associated with this use case and delegate the work to other concepts. | D | Controller
+Render the retrieved records into an HTML document for sending to actor's Web browser for display | D | Page maker
+HTML documentation that shows the actor the current context, what actions can be done, and outcomes of the previous actions | K | Interface Page
+Information regarding all the list of customer's order | K | Key
+Able to check off any order that has been prepared | D | Checker
+Prepare a database storage for storing recent managed products | D | Database connection
+Notified actor which product needs to be manage next | D | Notifier
 
+Concept Pair | Association Description | Association Name
+------------ | ----------------------- | ----------------
+Controller <-> Page Maker | Controller passes request to Page Maker and receivers back pages prepared for displaying | conveys requests
+Page Maker <-> Database Connection | Database Connection passes the retrieved data to Page Maker to render them for display | provides data
+Page Maker <-> Interface Page | Page Maker prepares the Interface Page | prepares
+Controller <-> Checker | Controller passes the information of the order to Checker | provides data
+Checker <-> Notifier | Checker request Notifier to notify actor regarding which products have not been managed | requests notify 
+
+Concept | Attributes | Attribute Description 
+------- | ---------- | ---------------------
+Checker | check off list | check off th eproducts from the list if the product has been prepared and ready for delivery 
+Notifier | notify actor | notify actor which product to prepare for next
