@@ -15,7 +15,8 @@ Concept Pair | Association Description | Association Name
 Controller <-> Page Maker | Controller passes request to Page Maker and receivers back pages prepared for displaying | conveys requests
 Page Maker <-> Database Connection | Database Connection passes the retrieved data to Page Maker to render them for display | provides data
 Page Maker <-> Interface Page | Page Maker prepares the Interface Page | prepares
-Controller <-> Checker | Controller passes request to Checker to make sure actor is in log in status | conveys requests
+Controller <-> Checker | Controller passes check request to Checker to make sure actor is in log in status | conveys requests
+Database connection <-> Checker | Database passes the log in status to CHecker | provides data
 Checker <-> Investigation requests | Making sure no abnormal actions that have not been accomplished | request check 
 Checker <-> Notifier | Checker request Notifier to notify actor regarding actor's current status | requests notify 
 
@@ -44,7 +45,8 @@ Concept Pair | Association Description | Association Name
 Controller <-> Page Maker | Controller passes request to Page Maker and receivers back pages prepared for displaying | conveys requests
 Page Maker <-> Database Connection | Database Connection passes the retrieved data to Page Maker to render them for display | provides data
 Page Maker <-> Interface Page | Page Maker prepares the Interface Page | prepares
-Controller <-> Modifier | Controller passes the information of the products to Modifier | provides data
+Controller <-> Modifier | Controller passes the modify requests to Modifier | conveys requests
+Database connection <-> Modifier | Database passes the products data to Modifier to modify products | provides data
 Modifier <-> Filterer | Filter all the information to ensure no double saving the same products | request filter
 Filterer <-> Database Connection | Information filtered saved to database | requests save
 Filterer <-> Notifier | Filterer request Notifier to notify actor regarding status of account | requests notify 
@@ -73,10 +75,39 @@ Concept Pair | Association Description | Association Name
 Controller <-> Page Maker | Controller passes request to Page Maker and receivers back pages prepared for displaying | conveys requests
 Page Maker <-> Database Connection | Database Connection passes the retrieved data to Page Maker to render them for display | provides data
 Page Maker <-> Interface Page | Page Maker prepares the Interface Page | prepares
-Controller <-> Checker | Controller passes the information of the order to Checker | provides data
+Controller <-> Checker | Controller passes check request to Checker | convey requests
+Database connection <-> Checker | Database passes the data for order list to Checker | provides data
 Checker <-> Notifier | Checker request Notifier to notify actor regarding which products have not been managed | requests notify 
 
 Concept | Attributes | Attribute Description 
 ------- | ---------- | ---------------------
 Checker | check off list | check off th eproducts from the list if the product has been prepared and ready for delivery 
 Notifier | notify actor | notify actor which product to prepare for next
+
+## _🍓UC-12 (Edit Status)_
+
+Responsibility Description | Type | Concept Name
+-------------------------- | ---- | ------------
+Coordinate actions of concepts associated with this use case and delegate the work to other concepts. | D | Controller
+Render the retrieved records into an HTML document for sending to actor's Web browser for display | D | Page maker
+Information regarding order status | K | Key 
+Form specifying the edit parameters for database storage | K | Edit page
+HTML documentation that shows the actor the current context, what actions can be done, and outcomes of the previous actions | K | Interface Page
+Change the order status to next level | D | Modifier
+Prepare a database storage for storing recent order status data | D | Database connection
+Notified actor current status | D | Notifier
+
+Concept Pair | Association Description | Association Name
+------------ | ----------------------- | ----------------
+Controller <-> Page Maker | Controller passes request to Page Maker and receivers back pages prepared for displaying | conveys requests
+Page Maker <-> Database Connection | Database Connection passes the retrieved data to Page Maker to render them for display | provides data
+Page Maker <-> Interface Page | Page Maker prepares the Interface Page | prepares
+Controller <-> Modifier | Controller passes modify request to Modifier | cnoveys requests
+Database connection <-> Modifier | Database passes the order status to Modifier to modify order status | provides data
+Modifier <-> Notifier | Modifier request Notifier to notify actor for his/her order status | requests notify 
+
+Concept | Attributes | Attribute Description 
+------- | ---------- | ---------------------
+Page Maker | edit parameters | needed for actor to edit in the order status 
+Modifier | modify status | modify current status of order
+Notifier | notify actor | notify actor regarding current order status 
