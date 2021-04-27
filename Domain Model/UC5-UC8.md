@@ -98,6 +98,34 @@ Filterer | filter email | filter email to ensure validity
 sender | send email | send email to the email address provided to update regarding order status
 Notifier | notify actor | notify actor whether their email has been sent or not 
 
-#3 _🍓UC-8 (See Order Status)_
+## _🍓UC-8 (See Order Status)_
+
+Responsibility Description | Type | Concept Name
+-------------------------- | ---- | ------------
+Coordinate actions of concepts associated with this use case and delegate the work to other concepts. | D | Controller
+Render the retrieved records into an HTML document for sending to actor's Web browser for display | D | Page maker
+Check the actor log in status | D | Checker 
+HTML documentation that shows the actor the current context, what actions can be done, and outcomes of the previous actions | K | Interface Page
+Information regarding actor's account | K | Key
+Retrieve data regarding actor's order | D | Database connection
+Container for actor's order list | K | Key Storage
+refresh and update actor's latest order status | D | Updater
+Notified actor current order status | D | Notifier
+
+Concept Pair | Association Description | Association Name
+------------ | ----------------------- | ----------------
+Controller <-> Page Maker | Controller passes request to Page Maker and receivers back pages prepared for displaying | conveys requests
+Page Maker <-> Database Connection | Database Connection passes the retrieved data to Page Maker to render them for display | provides data
+Page Maker <-> Interface Page | Page Maker prepares the Interface Page | prepares
+Controller <-> Checker | Controller passes request to Checker to check actor's log in status | conveys requests
+Checker <-> Database connection | Checker retrieve data from database to check actor's status | retrieve data
+Checker <-> Updater | Checker request to Updater to update recent order status of actor | request update
+Updater <-> Notifier | Updater request Notifier to notify actor regarding status of order | requests notify 
+
+Concept | Attributes | Attribute Description 
+------- | ---------- | ---------------------
+Checker | actor's status | check actor's status before giving in any information 
+Updater | update order status | update order status of actor to the recent one 
+Notifier | notify actor | notify actor regarding their order status 
 
 
