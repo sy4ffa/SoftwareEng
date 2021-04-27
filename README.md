@@ -35,3 +35,8 @@
 ## _🔑 Domain Model_
 - [Domain Model ](https://github.com/sy4ffa/SoftwareEng/tree/main/Domain%20Model)
 - [Traceabilitiy Matrix](https://github.com/sy4ffa/SoftwareEng/blob/main/Domain%20Model/TraceabilityMatrix.md)
+
+## _🍿User Interface Mockups_
+-[Order Groceries]
+-[Manage Products]
+-[Delivery Status]
