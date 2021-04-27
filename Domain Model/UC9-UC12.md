@@ -55,3 +55,7 @@ Page Maker | edit parameter | needed for actor to edit any products wanted or ad
 Modifier | modify products | used to modify any products or adding/removing products
 Filterer | filter products | filter modified products to avoid double saving the same product
 Notifier | notify actor | notify actor whether their editting process has been saved or not 
+
+## _🍓UC-11 (Manage order)_
+
+
