@@ -64,9 +64,40 @@ Concept | Attributes | Attribute Description
 ------- | ---------- | ---------------------
 Searcherer | search card | to search whether there are any card registered 
 Page Maker | fill parameters | needed for actor to fill in payment details if no card is being registered yet
-Filterer | filter card | filter all the card information to ensure the card can be used 
+Filterer | filter card | filter all the card information to ensure the validity of the card
 Processor | process payment | process payment regaring the products bought 
 Notifier | notify actor | notify actor whether their payment process is a success or a failure 
 
 ## _🍓UC-7 (Get Email)_
+
+Responsibility Description | Type | Concept Name
+-------------------------- | ---- | ------------
+Coordinate actions of concepts associated with this use case and delegate the work to other concepts. | D | Controller
+Render the retrieved records into an HTML document for sending to actor's Web browser for display | D | Page maker
+Check whether an email is available in th eactor's account | D | Searcherer 
+Information regarding actor's email | K | Key
+HTML documentation that shows the actor the current context, what actions can be done, and outcomes of the previous actions | K | Interface Page
+Filtered actor's email to check its validity | D | Filterer
+Send email confirmation regarding products ordered | D | Sender 
+Notified actor email status | D | Notifier
+
+Concept Pair | Association Description | Association Name
+------------ | ----------------------- | ----------------
+Controller <-> Page Maker | Controller passes request to Page Maker and receivers back pages prepared for displaying | conveys requests
+Page Maker <-> Database Connection | Database Connection passes the retrieved data to Page Maker to render them for display | provides data
+Page Maker <-> Interface Page | Page Maker prepares the Interface Page | prepares
+Database Connection <-> Searcherer | Database connection passes the information of email address to Searcherer | provides data
+Searcherer <-> Filterer | Searcherer passes the email address to Filterer to check validity | generates
+Filterer <-> Sender | Filter conveys the email address to Sender for further processing | conveys send
+Sender <-> Notifier | Sender request Notifier to notify actor regarding status of order | requests notify 
+
+Concept | Attributes | Attribute Description 
+------- | ---------- | ---------------------
+Searcherer | email address | search if there are email provided by actor in the account 
+Filterer | filter email | filter email to ensure validity
+sender | send email | send email to the email address provided to update regarding order status
+Notifier | notify actor | notify actor whether their email has been sent or not 
+
+#3 _🍓UC-8 (See Order Status)_
+
 
