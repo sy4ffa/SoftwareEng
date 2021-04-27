@@ -37,6 +37,6 @@
 - [Traceabilitiy Matrix](https://github.com/sy4ffa/SoftwareEng/blob/main/Domain%20Model/TraceabilityMatrix.md)
 
 ## _🍿User Interface Mockups_
--[Order Groceries](https://github.com/sy4ffa/SoftwareEng/blob/main/User%20Interface%20Mockups/Order%20Groceries.md)
--[Manage Products]
--[Delivery Status]
+- [Order Groceries](https://github.com/sy4ffa/SoftwareEng/blob/main/User%20Interface%20Mockups/Order%20Groceries.md)
+- [Manage Products]
+- [Delivery Status]
