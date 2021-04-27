@@ -51,7 +51,7 @@ Filterer <-> Notifier | Filterer request Notifier to notify actor regarding stat
 
 Concept | Attributes | Attribute Description 
 ------- | ---------- | ---------------------
-Page Maker | edit parameter | parameter 
-Investigation Requests | actor's information | actor's information needs to be investigate before confirming their account
-Filterer | filter form | filter all the information filled to match the website rules
-Notifier | notify actor | notify actor whether their signing up process a success or failure 
+Page Maker | edit parameter | needed for actor to edit any products wanted or adding a new product
+Modifier | modify products | used to modify any products or adding/removing products
+Filterer | filter products | filter modified products to avoid double saving the same product
+Notifier | notify actor | notify actor whether their editting process has been saved or not 
