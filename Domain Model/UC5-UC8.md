@@ -72,7 +72,7 @@ Responsibility Description | Type | Concept Name
 -------------------------- | ---- | ------------
 Coordinate actions of concepts associated with this use case and delegate the work to other concepts. | D | Controller
 Render the retrieved records into an HTML document for sending to actor's Web browser for display | D | Page maker
-Check whether an email is available in th eactor's account | D | Searcherer 
+Check whether an email is available in th eactor's account | D | Seeker
 Information regarding actor's email | K | Key
 HTML documentation that shows the actor the current context, what actions can be done, and outcomes of the previous actions | K | Interface Page
 Filtered actor's email to check its validity | D | Filterer
@@ -84,14 +84,15 @@ Concept Pair | Association Description | Association Name
 Controller <-> Page Maker | Controller passes request to Page Maker and receivers back pages prepared for displaying | conveys requests
 Page Maker <-> Database Connection | Database Connection passes the retrieved data to Page Maker to render them for display | provides data
 Page Maker <-> Interface Page | Page Maker prepares the Interface Page | prepares
-Database Connection <-> Searcherer | Database connection passes the information of email address to Searcherer | provides data
-Searcherer <-> Filterer | Searcherer passes the email address to Filterer to check validity | generates
+Controller <-> Seeker | Controller passes request to Seeker | convey requests
+Database Connection <-> Seeker | Database connection passes the information of email address to Seeker | provides data
+Seeker <-> Filterer | Seeker passes the email address to Filterer to check validity | generates
 Filterer <-> Sender | Filter conveys the email address to Sender for further processing | conveys send
 Sender <-> Notifier | Sender request Notifier to notify actor regarding status of order | requests notify 
 
 Concept | Attributes | Attribute Description 
 ------- | ---------- | ---------------------
-Searcherer | email address | search if there are email provided by actor in the account 
+Seeker | email address | search if there are email provided by actor in the account 
 Filterer | filter email | filter email to ensure validity
 sender | send email | send email to the email address provided to update regarding order status
 Notifier | notify actor | notify actor whether their email has been sent or not 
