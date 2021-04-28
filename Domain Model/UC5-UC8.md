@@ -52,7 +52,7 @@ Page Maker <-> Database Connection | Database Connection passes the retrieved da
 Controller <-> Database Connection | Controller passes request to Database Connection to retrieve data regarding User's card details | conveys requests
 Controller <-> Seeker | Controller passes card details of the User to check whether there are any card added or not in the account for payment purposes | convey requests
 Page Maker <-> Interface Page | Page Maker prepares the Interface Page | prepares
-Controller <-> Filterer | Controller passes the payment details to Filterer | conveys requests
+Seeker <-> Filterer | Seeker convey the payment details to Filterer | filter
 Filterer <-> Investigation requests | Filter all the information to confirm all the details is correct | generates
 Filterer <-> Database Connection | Information filtered saved to database | requests save
 Filterer <-> Processor | Filtered card details being used to process payment | generates 
