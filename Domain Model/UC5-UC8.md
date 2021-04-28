@@ -17,17 +17,15 @@ Concept Pair | Association Description | Association Name
 Controller <-> Page Maker | Controller passes request to Page Maker and receivers back pages prepared for displaying | conveys requests
 Page Maker <-> Database Connection | Database Connection passes the retrieved data to Page Maker to render them for display | provides data
 Page Maker <-> Interface Page | Page Maker prepares the Interface Page | prepares
-Interface Page <-> Key | Interface Page shows the button display for adding item into cart | prepares
 Controller <-> Storer | Controller passes a list of products available in the Cart to the Storer | convey requests
 Controller <-> Filterer | Controller passes the list of products available in the Cart for filter purposes | conveys requests
-Storer <-> Filterer | List of products in the Cart being filtered to ensure the products is available | Investigation requests
+Storer <-> Filterer | List of products in the Cart being filtered to ensure the products is available | provides data
 Storer <-> Database Connection | Products in the cart is saved to database | requests save
 Storer <-> Notifier | Storer request Notifier to notify actor regarding status of cart | requests notify 
 
 Concept | Attributes | Attribute Description 
 ------- | ---------- | ---------------------
 Page Maker | button parameters | needed for actor to add in products to the cart 
-Storage | Key Storage | what type of products been saved to the cart 
 Storer | Cart Storage | products stored in the cart is final and saved to database after being filtered 
 Filterer | filter cart | filter all the products in the cart to ensure its availability
 Notifier | notify actor | notify actor whether their adding to cart process is a success or failure 
