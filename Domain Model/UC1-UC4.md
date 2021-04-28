@@ -28,6 +28,10 @@ Investigation Requests | actor's information | actor's information needs to be i
 Filterer | filter form | filter all the information filled to match the website rules
 Notifier | notify actor | notify actor whether their signing up process a success or failure 
 
+### Domain Model 
+
+![image](https://user-images.githubusercontent.com/81685914/116347244-d58ddd80-a826-11eb-9097-0903c714c2ff.png)
+
 ## _🍓UC-2(Log In)_ 
 
 Responsibility Description | Type | Concept Name
@@ -57,6 +61,10 @@ Page Maker | fill parameters | needed for actor to log in, needed to filter emai
 Investigation Requests | actor's information | actor's information needs to be investigate wiht previous data stored
 Filterer | filter form | filter all the information filled 
 Notifier | notify actor | notify actor whether their logging in process a success or failure 
+
+### Domain Model 
+
+![image](https://user-images.githubusercontent.com/81685914/116347411-1ede2d00-a827-11eb-8c3b-d1100a871756.png)
 
 ## _🍓UC-3(Fill Info)_
 
@@ -90,6 +98,10 @@ Investigation Requests | actor's information | actor's information needs to be i
 Filterer | filter form | filter all the information filled to ensure the card and house address exists
 Notifier | notify actor | notify actor whether their details is correct or not
 
+### Domain Model
+
+![image](https://user-images.githubusercontent.com/81685914/116347654-91e7a380-a827-11eb-9570-a46d17b972e5.png)
+
 ## _🍓UC-4(See Products)_
 
 Responsibility Description | Type | Concept Name
@@ -109,6 +121,11 @@ Concept | Attributes | Attribute Description
 ------- | ---------- | ---------------------
 Page Maker | website parameters | displays products and information allowed to actors
 Investigation Requests | website's information | shows websites information 
+
+### Domain Model
+
+![image](https://user-images.githubusercontent.com/81685914/116347895-0ae6fb00-a828-11eb-8c80-f98107d95488.png)
+
 
 
 
