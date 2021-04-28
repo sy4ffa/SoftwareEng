@@ -50,7 +50,7 @@ Concept Pair | Association Description | Association Name
 Controller <-> Page Maker | Controller passes request to Page Maker and receivers back pages prepared for displaying | conveys requests
 Page Maker <-> Database Connection | Database Connection passes the retrieved data to Page Maker to render them for display | provides data
 Controller <-> Database Connection | Controller passes request to Database Connection to retrieve data regarding User's card details | conveys requests
-Controller <-> Seeker | Controller passes card details of the User to check whether there are any card added or not in the account for payment purposes | provides data 
+Controller <-> Seeker | Controller passes card details of the User to check whether there are any card added or not in the account for payment purposes | convey requests
 Page Maker <-> Interface Page | Page Maker prepares the Interface Page | prepares
 Controller <-> Filterer | Controller passes the payment details to Filterer | conveys requests
 Filterer <-> Investigation requests | Filter all the information to confirm all the details is correct | generates
