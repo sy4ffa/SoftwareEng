@@ -18,7 +18,6 @@ Controller <-> Page Maker | Controller passes request to Page Maker and receiver
 Page Maker <-> Database Connection | Database Connection passes the retrieved data to Page Maker to render them for display | provides data
 Page Maker <-> Interface Page | Page Maker prepares the Interface Page | prepares
 Controller <-> Storer | Controller passes a list of products available in the Cart to the Storer | convey requests
-Controller <-> Filterer | Controller passes the list of products available in the Cart for filter purposes | conveys requests
 Storer <-> Filterer | List of products in the Cart being filtered to ensure the products is available | provides data
 Storer <-> Database Connection | Products in the cart is saved to database | requests save
 Storer <-> Notifier | Storer request Notifier to notify actor regarding status of cart | requests notify 
@@ -29,6 +28,10 @@ Page Maker | button parameters | needed for actor to add in products to the cart
 Storer | Cart Storage | products stored in the cart is final and saved to database after being filtered 
 Filterer | filter cart | filter all the products in the cart to ensure its availability
 Notifier | notify actor | notify actor whether their adding to cart process is a success or failure 
+
+### Domain Model 
+
+![image](https://user-images.githubusercontent.com/81685914/116348720-92813980-a829-11eb-9102-16431544d00a.png)
 
 ## _🍓UC-6 (To Pay)_
 
@@ -66,6 +69,10 @@ Filterer | filter card | filter all the card information to ensure the validity 
 Processor | process payment | process payment regaring the products bought 
 Notifier | notify actor | notify actor whether their payment process is a success or a failure 
 
+### Domain Model
+
+![image](https://user-images.githubusercontent.com/81685914/116349245-8ba6f680-a82a-11eb-91e6-a014c27829fc.png)
+
 ## _🍓UC-7 (Get Email)_
 
 Responsibility Description | Type | Concept Name
@@ -87,7 +94,7 @@ Page Maker <-> Interface Page | Page Maker prepares the Interface Page | prepare
 Controller <-> Seeker | Controller passes request to Seeker | convey requests
 Database Connection <-> Seeker | Database connection passes the information of email address to Seeker | provides data
 Seeker <-> Filterer | Seeker passes the email address to Filterer to check validity | generates
-Filterer <-> Processor | Filter conveys the email address to Processor for further processing | conveys send
+Filterer <-> Processor | Filter conveys the email address to Processor for further processing | request send
 Processor <-> Notifier | Processor request Notifier to notify actor regarding status of order | requests notify 
 
 Concept | Attributes | Attribute Description 
@@ -96,6 +103,10 @@ Seeker | email address | search if there are email provided by actor in the acco
 Filterer | filter email | filter email to ensure validity
 Processor | send email | send email to the email address provided to update regarding order status
 Notifier | notify actor | notify actor whether their email has been sent or not 
+
+### Domain Model 
+
+![image](https://user-images.githubusercontent.com/81685914/116349492-1687f100-a82b-11eb-86c3-f4c4714ae973.png)
 
 ## _🍓UC-8 (See Order Status)_
 
@@ -127,4 +138,7 @@ Checker | actor's status | check actor's status before giving in any information
 Updater | update order status | update order status of actor to the recent one 
 Notifier | notify actor | notify actor regarding their order status 
 
+### Domain Model
+
+![image](https://user-images.githubusercontent.com/81685914/116349690-84341d00-a82b-11eb-9d0b-0e0137d0f770.png)
 
