@@ -26,6 +26,10 @@ Checker | actor's status | check actor's status by making sure actor is in log i
 Investigation Requests | hold activites | making sure there are no hold activities that have not been accomplished
 Notifier | notify actor | notify actor whether logging out process is a success or not 
 
+### Domain Model 
+
+![image](https://user-images.githubusercontent.com/81685914/116350114-58fdfd80-a82c-11eb-9780-b58c4a676ce5.png)
+
 ## _🍓UC-10 (Edit Products)_
 
 Responsibility Description | Type | Concept Name
@@ -56,7 +60,11 @@ Concept | Attributes | Attribute Description
 Page Maker | edit parameter | needed for actor to edit any products wanted or adding a new product
 Modifier | modify products | used to modify any products or adding/removing products
 Filterer | filter products | filter modified products to avoid double saving the same product
-Notifier | notify actor | notify actor whether their editting process has been saved or not 
+Notifier | notify actor | notify actor whether their editting process has been saved or not
+
+### Domain Model 
+
+![image](https://user-images.githubusercontent.com/81685914/116350405-d9246300-a82c-11eb-8e1f-076585fbd1e2.png)
 
 ## _🍓UC-11 (Manage order)_
 
@@ -83,6 +91,10 @@ Concept | Attributes | Attribute Description
 ------- | ---------- | ---------------------
 Checker | check off list | check off th eproducts from the list if the product has been prepared and ready for delivery 
 Notifier | notify actor | notify actor which product to prepare for next
+
+### Domain Model
+
+
 
 ## _🍓UC-12 (Edit Status)_
 
