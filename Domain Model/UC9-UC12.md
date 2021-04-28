@@ -123,3 +123,7 @@ Concept | Attributes | Attribute Description
 Page Maker | edit parameters | needed for actor to edit in the order status 
 Modifier | modify status | modify current status of order
 Notifier | notify actor | notify actor regarding current order status 
+
+### Domain Model 
+
+![image](https://user-images.githubusercontent.com/81685914/116350817-8a2afd80-a82d-11eb-924e-6a4411fbaa7f.png)
