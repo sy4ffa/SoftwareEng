@@ -94,7 +94,7 @@ Notifier | notify actor | notify actor which product to prepare for next
 
 ### Domain Model
 
-
+![image](https://user-images.githubusercontent.com/81685914/116350669-4afcac80-a82d-11eb-94e1-ca787953e50d.png)
 
 ## _🍓UC-12 (Edit Status)_
 
