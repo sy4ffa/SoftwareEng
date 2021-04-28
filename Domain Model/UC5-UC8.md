@@ -76,7 +76,7 @@ Check whether an email is available in th eactor's account | D | Seeker
 Information regarding actor's email | K | Key
 HTML documentation that shows the actor the current context, what actions can be done, and outcomes of the previous actions | K | Interface Page
 Filtered actor's email to check its validity | D | Filterer
-Send email confirmation regarding products ordered | D | Sender 
+Send email confirmation regarding products ordered | D | Processor 
 Notified actor email status | D | Notifier
 
 Concept Pair | Association Description | Association Name
@@ -87,14 +87,14 @@ Page Maker <-> Interface Page | Page Maker prepares the Interface Page | prepare
 Controller <-> Seeker | Controller passes request to Seeker | convey requests
 Database Connection <-> Seeker | Database connection passes the information of email address to Seeker | provides data
 Seeker <-> Filterer | Seeker passes the email address to Filterer to check validity | generates
-Filterer <-> Sender | Filter conveys the email address to Sender for further processing | conveys send
-Sender <-> Notifier | Sender request Notifier to notify actor regarding status of order | requests notify 
+Filterer <-> Processor | Filter conveys the email address to Processor for further processing | conveys send
+Processor <-> Notifier | Processor request Notifier to notify actor regarding status of order | requests notify 
 
 Concept | Attributes | Attribute Description 
 ------- | ---------- | ---------------------
 Seeker | email address | search if there are email provided by actor in the account 
 Filterer | filter email | filter email to ensure validity
-sender | send email | send email to the email address provided to update regarding order status
+Processor | send email | send email to the email address provided to update regarding order status
 Notifier | notify actor | notify actor whether their email has been sent or not 
 
 ## _🍓UC-8 (See Order Status)_
