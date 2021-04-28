@@ -36,7 +36,7 @@ Responsibility Description | Type | Concept Name
 -------------------------- | ---- | ------------
 Coordinate actions of concepts associated with this use case and delegate the work to other concepts. | D | Controller
 Render the retrieved records into an HTML document for sending to actor's Web browser for display | D | Page maker
-Checking whether there are any card details added for payment or not | D | Searcherer 
+Checking whether there are any card details added for payment or not | D | Seeker
 HTML documentation that shows the actor the current context, what actions can be done, and outcomes of the previous actions | K | Interface Page
 Form specifying the fill parameters for database storage | K | Fill page
 Information regarding actor's payment details | K | Key
@@ -50,7 +50,7 @@ Concept Pair | Association Description | Association Name
 Controller <-> Page Maker | Controller passes request to Page Maker and receivers back pages prepared for displaying | conveys requests
 Page Maker <-> Database Connection | Database Connection passes the retrieved data to Page Maker to render them for display | provides data
 Controller <-> Database Connection | Controller passes request to Database Connection to retrieve data regarding User's card details | conveys requests
-Controller <-> Searcherer | Controller passes card details of the User to check whether there are any card added or not in the account for payment purposes | provides data 
+Controller <-> Seeker | Controller passes card details of the User to check whether there are any card added or not in the account for payment purposes | provides data 
 Page Maker <-> Interface Page | Page Maker prepares the Interface Page | prepares
 Controller <-> Filterer | Controller passes the payment details to Filterer | conveys requests
 Filterer <-> Investigation requests | Filter all the information to confirm all the details is correct | generates
@@ -60,7 +60,7 @@ Processor <-> Notifier | Processor request Notifier to notify actor regarding st
 
 Concept | Attributes | Attribute Description 
 ------- | ---------- | ---------------------
-Searcherer | search card | to search whether there are any card registered 
+Seeker | search card | to search whether there are any card registered 
 Page Maker | fill parameters | needed for actor to fill in payment details if no card is being registered yet
 Filterer | filter card | filter all the card information to ensure the validity of the card
 Processor | process payment | process payment regaring the products bought 
