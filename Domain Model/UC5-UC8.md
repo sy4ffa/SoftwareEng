@@ -1,4 +1,4 @@
-## _🍓UC-5 (Add To Cart)_
+## _🍌UC-5 (Add To Cart)_
 
 Responsibility Description | Type | Concept Name
 -------------------------- | ---- | ------------
@@ -33,7 +33,7 @@ Notifier | notify actor | notify actor whether their adding to cart process is a
 
 ![image](https://user-images.githubusercontent.com/81685914/116348720-92813980-a829-11eb-9102-16431544d00a.png)
 
-## _🍓UC-6 (To Pay)_
+## _🍌UC-6 (To Pay)_
 
 Responsibility Description | Type | Concept Name
 -------------------------- | ---- | ------------
@@ -73,7 +73,7 @@ Notifier | notify actor | notify actor whether their payment process is a succes
 
 ![image](https://user-images.githubusercontent.com/81685914/116349245-8ba6f680-a82a-11eb-91e6-a014c27829fc.png)
 
-## _🍓UC-7 (Get Email)_
+## _🍌UC-7 (Get Email)_
 
 Responsibility Description | Type | Concept Name
 -------------------------- | ---- | ------------
@@ -108,7 +108,7 @@ Notifier | notify actor | notify actor whether their email has been sent or not
 
 ![image](https://user-images.githubusercontent.com/81685914/116349492-1687f100-a82b-11eb-86c3-f4c4714ae973.png)
 
-## _🍓UC-8 (See Order Status)_
+## _🍌UC-8 (See Order Status)_
 
 Responsibility Description | Type | Concept Name
 -------------------------- | ---- | ------------
