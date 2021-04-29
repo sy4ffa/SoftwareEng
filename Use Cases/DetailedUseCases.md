@@ -1,4 +1,4 @@
-## _📊Schema Detailed Use Cases_
+## _🫐Schema Detailed Use Cases_
 
 ### 1. UC-1 (Register)
 
