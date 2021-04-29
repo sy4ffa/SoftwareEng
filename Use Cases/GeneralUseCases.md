@@ -1,4 +1,4 @@
-## _🍙 Use Cases_
+## _🫐 Use Cases_
 
 ### 👩🏼‍🦱 User
 
