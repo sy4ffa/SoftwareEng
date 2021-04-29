@@ -1,4 +1,4 @@
-## _🍓UC-9(To Log Out)_
+## _🍌UC-9(To Log Out)_
 
 Responsibility Description | Type | Concept Name
 -------------------------- | ---- | ------------
@@ -30,7 +30,7 @@ Notifier | notify actor | notify actor whether logging out process is a success 
 
 ![image](https://user-images.githubusercontent.com/81685914/116350114-58fdfd80-a82c-11eb-9780-b58c4a676ce5.png)
 
-## _🍓UC-10 (Edit Products)_
+## _🍌UC-10 (Edit Products)_
 
 Responsibility Description | Type | Concept Name
 -------------------------- | ---- | ------------
@@ -66,7 +66,7 @@ Notifier | notify actor | notify actor whether their editting process has been s
 
 ![image](https://user-images.githubusercontent.com/81685914/116350405-d9246300-a82c-11eb-8e1f-076585fbd1e2.png)
 
-## _🍓UC-11 (Manage order)_
+## _🍌UC-11 (Manage order)_
 
 Responsibility Description | Type | Concept Name
 -------------------------- | ---- | ------------
@@ -96,7 +96,7 @@ Notifier | notify actor | notify actor which product to prepare for next
 
 ![image](https://user-images.githubusercontent.com/81685914/116350669-4afcac80-a82d-11eb-94e1-ca787953e50d.png)
 
-## _🍓UC-12 (Edit Status)_
+## _🍌UC-12 (Edit Status)_
 
 Responsibility Description | Type | Concept Name
 -------------------------- | ---- | ------------
