@@ -1,4 +1,4 @@
-## _🍓UC-1(Register)_
+## _🍌UC-1(Register)_
 
 Responsibility Description | Type | Concept Name
 -------------------------- | ---- | ------------
@@ -32,7 +32,7 @@ Notifier | notify actor | notify actor whether their signing up process a succes
 
 ![image](https://user-images.githubusercontent.com/81685914/116347244-d58ddd80-a826-11eb-9097-0903c714c2ff.png)
 
-## _🍓UC-2(Log In)_ 
+## _🍌UC-2(Log In)_ 
 
 Responsibility Description | Type | Concept Name
 -------------------------- | ---- | ------------
@@ -66,7 +66,7 @@ Notifier | notify actor | notify actor whether their logging in process a succes
 
 ![image](https://user-images.githubusercontent.com/81685914/116347411-1ede2d00-a827-11eb-8c3b-d1100a871756.png)
 
-## _🍓UC-3(Fill Info)_
+## _🍌UC-3(Fill Info)_
 
 Responsibility Description | Type | Concept Name
 -------------------------- | ---- | ------------
@@ -102,7 +102,7 @@ Notifier | notify actor | notify actor whether their details is correct or not
 
 ![image](https://user-images.githubusercontent.com/81685914/116347654-91e7a380-a827-11eb-9570-a46d17b972e5.png)
 
-## _🍓UC-4(See Products)_
+## _🍌UC-4(See Products)_
 
 Responsibility Description | Type | Concept Name
 -------------------------- | ---- | ------------
