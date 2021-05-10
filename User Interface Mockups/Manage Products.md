@@ -16,7 +16,7 @@
 
 ## 5. Log Out
 
-<img width="300" alt="log out" src="https://user-images.githubusercontent.com/81685914/117624369-cfe1b180-b1af-11eb-9482-e362391a9401.png"> <img width="300" alt="Welcome Page" src="https://user-images.githubusercontent.com/81685914/117624389-d4a66580-b1af-11eb-9fcd-df3e12514d4b.png">
+<img width="300" alt="log out (admin)" src="https://user-images.githubusercontent.com/81685914/117625325-df152f00-b1b0-11eb-8492-a606419400c8.png"> <img width="300" alt="Welcome Page" src="https://user-images.githubusercontent.com/81685914/117624389-d4a66580-b1af-11eb-9fcd-df3e12514d4b.png">
 
 
 
