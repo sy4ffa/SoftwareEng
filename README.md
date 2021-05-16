@@ -24,5 +24,5 @@
 
 ## _🍏 Class Diagram & Sequence Diagram_
 - [Order Groceries](https://github.com/sy4ffa/SoftwareEng/blob/main/Class%20Diagram%20%26%20Sequence%20Diagram/Order%20Groceries.md)
-- [Manage Products](https://github.com/sy4ffa/SoftwareEng/blob/main/Class%20Diagram%20%26%20Sequence%20Diagram/Manage%20Products.md)
+- [Manage Products](https://github.com/sy4ffa/SoftwareEng/blob/main/Class%20Diagram%20%26%20Sequence%20Diagram/Manage%20Orders.md)
 - [Delivery Status](https://github.com/sy4ffa/SoftwareEng/blob/main/Class%20Diagram%20%26%20Sequence%20Diagram/Delivery%20Status.md)
