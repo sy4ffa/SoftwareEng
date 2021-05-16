@@ -23,6 +23,6 @@
 - [Delivery Status](https://github.com/sy4ffa/SoftwareEng/blob/main/User%20Interface%20Mockups/Delivery%20Status.md)
 
 ## _🍏 Class Diagram & Sequence Diagram_
-- [Order Groceries]
-- [Manage Products]
-- [Delivery Status]
+- [Order Groceries](https://github.com/sy4ffa/SoftwareEng/blob/main/Class%20Diagram%20%26%20Sequence%20Diagram/Order%20Groceries.md)
+- [Manage Products](https://github.com/sy4ffa/SoftwareEng/blob/main/Class%20Diagram%20%26%20Sequence%20Diagram/Manage%20Products.md)
+- [Delivery Status](https://github.com/sy4ffa/SoftwareEng/blob/main/Class%20Diagram%20%26%20Sequence%20Diagram/Delivery%20Status.md)
